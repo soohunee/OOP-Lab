@@ -9,12 +9,13 @@ PyPI - IMDbPy
 IMDbPy official documentation
 Example of covid
 "matrix"라는 키워드가 들어가는 영화를 찾고 그 영화의 제목을 출력하기\
-from imdb import IMDb ia = IMDb()
+    from imdb import IMDb ia = IMDb()
 
-matrix_movies = ia.search_movie('matrix')
+    matrix_movies = ia.search_movie('matrix')
 
-for m in matrix_movies:
-    print(m['title'])
+    for m in matrix_movies:
+        print(m['title'])
+        
 Problem 01
 imdb에서 상위에 랭크된 250개의 영화(movie)의 title과 개봉년도(year)를 console에 순차적으로 출력하는 코드를 작성하세요.
 Console Output 형태 예시(예시일 뿐 실제 실행 결과는 다를 수 있음. 형태만 참조 할 것):
